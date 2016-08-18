@@ -1,0 +1,84 @@
+/* Inserta tu codigo aqui */
+
+/*tipografias*/
+*{
+	font-family: 'Open Sans';
+}
+.cour{
+	font-family: 'Courgette';
+}
+/*fondos*/
+.fondo{
+	background-color: #42324E;
+}
+.borde{
+	background-color: black;
+}
+.amarillo{
+	color: #F7BA6A;
+}
+.blanco, i{
+	color: white;
+}
+/*header - navegador*/
+ul{
+	text-align: center;
+}
+li{
+	text-decoration: none;
+	display: inline-block;
+	padding: 1%;
+	margin-top: 1%;
+}
+.logo{
+	width: 40%;
+}
+.background{
+	background-image: url(../image/header-image.jpg);
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size: 100%;
+}
+.cuadro{
+	background-color: black;
+	width: 30%;
+	margin: auto;
+	margin-top: 15%;
+	margin-bottom: 15%;
+	padding:1.5%;
+}
+.letra{
+	font-size: 4em;
+}
+.ff{/*margen de fotos de tercera seccion*/
+	margin-top: 2%;
+	margin-bottom:2%;
+}
+form{
+	margin-top:5%;
+	width: auto;
+}
+i{
+	font-size:2em;	
+}
+footer{
+	padding: 1%;
+}
+p, h2, h3, i{
+	padding:2%;
+}
+
+/* Responsive */
+
+@media screen and (max-width : 920px) {
+	section .cuadro{
+		width: 70%;
+		height: auto;
+
+	}
+
+}
+
+@media screen and (max-width: 600px) {
+
+}
